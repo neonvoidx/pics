@@ -1,0 +1,31 @@
+name: readme-builder
+on:
+  push:
+    branches:
+    - master
+jobs:
+  build:
+    permissions:  
+      contents: write 
+    runs-on: ubuntu-latest
+    steps:
+      - name: checkout repo content
+        uses: actions/checkout@v2 # checkout the repository content to github runner
+        
+      - name: Setup Python
+        uses: actions/setup-python@v5.1.0    
+        
+      - name: Generate Readme
+        run: python update_readme.py
+        
+      - name: commit files
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add -A
+          git commit -m "Generate new README" -a
+      - name: Push changes
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: ${{ github.ref }}
