@@ -8,6 +8,7 @@ This my collection of 3440x1440 wallpapers that I find visually pleasing. Previe
 ![animeswords.jpg](animeswords.jpg)
 ![rocketship.png](rocketship.png)
 ![blueeyes.png](blueeyes.png)
+![shadowsoftheerdtree.jpg](shadowsoftheerdtree.jpg)
 ![hyprdragon.jpg](hyprdragon.jpg)
 ![cyberpunk-edgerunners.jpg](cyberpunk-edgerunners.jpg)
 ![cyberspace.png](cyberspace.png)
