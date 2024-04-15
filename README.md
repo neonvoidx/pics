@@ -15,7 +15,6 @@ Previews are dynamically generated below:
 ![procelainrobot.jpg](procelainrobot.jpg)
 ![eye.png](eye.png)
 ![iceastro.jpg](iceastro.jpg)
-![girl-old-desktop.png](girl-old-desktop.png)
 ![anime-girl-eye.jpg](anime-girl-eye.jpg)
 ![spacemarine.jpg](spacemarine.jpg)
 ![animeswords.jpg](animeswords.jpg)
