@@ -1,6 +1,8 @@
 ### Wallpapers
 
-This my collection of >=3440x1440 wallpapers that I find visually pleasing. Previews are dynamically generated below:
+This my collection of wallpapers that I find visually pleasing. I do not take credit for any of these, most of then are found on /r/unixporn or wallhaven.cc.
+
+Previews are dynamically generated below:
 
 ![jad0fbqfcgqc1.jpeg](jad0fbqfcgqc1.jpeg)
 ![cyberpunkcity.jpg](cyberpunkcity.jpg)
