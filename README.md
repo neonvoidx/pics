@@ -29,4 +29,3 @@ Previews are dynamically generated below:
 ![spacemarine.jpg](spacemarine.jpg)
 ![rocketship.png](rocketship.png)
 ![iceastro.jpg](iceastro.jpg)
-![purple-nebula.png](purple-nebula.png)
