@@ -16,7 +16,6 @@ Previews are dynamically generated below:
 ![eye.png](eye.png)
 ![cyberpunk-edgerunners.jpg](cyberpunk-edgerunners.jpg)
 ![animeswords.jpg](animeswords.jpg)
-![knockknock.png](knockknock.png)
 ![anime-girl-ocean.png](anime-girl-ocean.png)
 ![hyprdragon.jpg](hyprdragon.jpg)
 ![cosmonaut-in-open-space-art-desktop-wallpaper.jpg](cosmonaut-in-open-space-art-desktop-wallpaper.jpg)
