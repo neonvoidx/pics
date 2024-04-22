@@ -13,7 +13,6 @@ Previews are dynamically generated below:
 ![anime-village.png](anime-village.png)
 ![racoon.png](racoon.png)
 ![anime-girl-eye.jpg](anime-girl-eye.jpg)
-![boy-in-painting.jpeg](boy-in-painting.jpeg)
 ![eye.png](eye.png)
 ![cyberpunk-edgerunners.jpg](cyberpunk-edgerunners.jpg)
 ![animeswords.jpg](animeswords.jpg)
