@@ -8,7 +8,6 @@ Previews are dynamically generated below:
 ![cyberpunk-edgerunners.jpg](cyberpunk-edgerunners.jpg)
 ![hyprdragon.jpg](hyprdragon.jpg)
 ![anime-girl-eye.jpg](anime-girl-eye.jpg)
-![cyberpunk-edge-lucy.jpg](cyberpunk-edge-lucy.jpg)
 ![animeswords.jpg](animeswords.jpg)
 ![eye.png](eye.png)
 ![shadowsoftheerdtree.jpg](shadowsoftheerdtree.jpg)
