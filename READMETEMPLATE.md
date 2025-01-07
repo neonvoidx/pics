@@ -4,4 +4,10 @@ This my collection of wallpapers that I find visually pleasing. I do not take cr
 
 Previews are dynamically generated below:
 
+#### Ultrawide
+
 $images
+
+#### Vertical (Portrait Mode)
+
+$vert_images

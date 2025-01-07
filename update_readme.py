@@ -4,10 +4,10 @@ import os
 from string import Template
 
 
-def get_all_images():
+def get_all_images(walk_path):
     """Gets all images in current directory"""
     images = []
-    for _, _, files in os.walk("."):
+    for _, _, files in os.walk(walk_path):
         for file in files:
             if (
                 file.endswith(".png")
@@ -26,12 +26,16 @@ def generate_image_markdown(image):
 
 def main():
     """Main function"""
-    images = get_all_images()
+    images = get_all_images(".")
+    vert_images = get_all_images("vertical")
     with open("READMETEMPLATE.md", "r", encoding="utf-8") as template:
         data = template.read()
         template = Template(data)
         output = template.substitute(
-            images="\n".join([generate_image_markdown(image) for image in images])
+            images="\n".join([generate_image_markdown(image) for image in images]),
+            vert_images="\n".join(
+                [generate_image_markdown(image) for image in vert_images]
+            ),
         )
         print(output)
         with open("README.md", "w", encoding="utf-8") as readme:
