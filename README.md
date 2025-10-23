@@ -35,18 +35,6 @@ Previews are dynamically generated below:
 ![courage.jpg](./vertical/courage.jpg)
 ![hyprdragon.jpg](./vertical/hyprdragon.jpg)
 ![anime-village.png](./vertical/anime-village.png)
-![darklust.jpg](./vertical/darklust.jpg)
-![subway.jpg](./vertical/subway.jpg)
-![prkcx9wxclz31.jpg](./vertical/prkcx9wxclz31.jpg)
-![haren-kim-han-seul-bulma-07.jpg](./vertical/haren-kim-han-seul-bulma-07.jpg)
-![f2ozw9v341j31.png](./vertical/f2ozw9v341j31.png)
-![ggdfdxps514c1.jpeg](./vertical/ggdfdxps514c1.jpeg)
-![catbiker.jpg](./vertical/catbiker.jpg)
-![tsx0wxyklwp31.jpg](./vertical/tsx0wxyklwp31.jpg)
-![yhi2zdknv6741.png](./vertical/yhi2zdknv6741.png)
-![hearteyegirl.jpg](./vertical/hearteyegirl.jpg)
-![abstractacid.png](./vertical/abstractacid.png)
-![yuti.jpg](./vertical/yuti.jpg)
 
 #### Vertical (Portrait Mode)
 
