@@ -21,11 +21,6 @@ def get_all_images(walk_path):
     return images
 
 
-def generate_image_markdown(image):
-    """Generates markdown for image"""
-    return f"![{image}](./vertical/{image})"
-
-
 def main():
     """Main function"""
     images = get_all_images(".")
@@ -34,9 +29,9 @@ def main():
         data = template.read()
         template = Template(data)
         output = template.substitute(
-            images="\n".join([generate_image_markdown(image) for image in images]),
+            images="\n".join([f"![{image}](./{image})" for image in images]),
             vert_images="\n".join(
-                [generate_image_markdown(image) for image in vert_images]
+                [f"![{image}](./vertical/{image})" for image in vert_images]
             ),
         )
         print(output)
