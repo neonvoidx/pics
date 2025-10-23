@@ -1,4 +1,4 @@
-""" Dynamic README generator for images in directory """
+"""Dynamic README generator for images in directory"""
 
 import os
 from string import Template
@@ -21,7 +21,7 @@ def get_all_images(walk_path):
 
 def generate_image_markdown(image):
     """Generates markdown for image"""
-    return f"![{image}]({image})"
+    return f"![{image}](./vertical/{image})"
 
 
 def main():
