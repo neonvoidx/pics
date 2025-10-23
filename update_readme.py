@@ -5,22 +5,18 @@ from string import Template
 
 
 def get_all_images(walk_path):
-    """Gets all images in current directory"""
+    """Gets all images in specified directory only (not recursive)"""
     images = []
-    for _, _, files in os.walk(walk_path):
-        for file in files:
-            if (
-                file.endswith(".png")
-                or file.endswith(".jpg")
-                or file.endswith(".jpeg")
-                or file.endswith(".gif")
-            ):
-                # Only add images not in vertical/ for ultrawide
-                if walk_path == ".":
-                    # Exclude images in vertical/
-                    if not os.path.relpath(root, ".").startswith("vertical"):
-                        images.append(file)
-                else:
+    for root, _, files in os.walk(walk_path):
+        # Only add images from the exact directory specified
+        if os.path.abspath(root) == os.path.abspath(walk_path):
+            for file in files:
+                if (
+                    file.endswith(".png")
+                    or file.endswith(".jpg")
+                    or file.endswith(".jpeg")
+                    or file.endswith(".gif")
+                ):
                     images.append(file)
     return images
 
