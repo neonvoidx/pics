@@ -15,7 +15,13 @@ def get_all_images(walk_path):
                 or file.endswith(".jpeg")
                 or file.endswith(".gif")
             ):
-                images.append(file)
+                # Only add images not in vertical/ for ultrawide
+                if walk_path == ".":
+                    # Exclude images in vertical/
+                    if not os.path.relpath(root, ".").startswith("vertical"):
+                        images.append(file)
+                else:
+                    images.append(file)
     return images
 
 
