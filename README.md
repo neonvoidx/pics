@@ -16,7 +16,6 @@ Previews are dynamically generated below:
 ![facinggod.jpg](./facinggod.jpg)
 ![mickey.jpg](./mickey.jpg)
 ![silenthill.jpg](./silenthill.jpg)
-![wallhaven-zpxmpo.png](./wallhaven-zpxmpo.png)
 ![wallhaven-ml92v1.jpg](./wallhaven-ml92v1.jpg)
 ![zaahen.jpg](./zaahen.jpg)
 ![animeswords.jpg](./animeswords.jpg)
