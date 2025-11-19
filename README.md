@@ -17,7 +17,6 @@ Previews are dynamically generated below:
 ![mickey.jpg](./mickey.jpg)
 ![silenthill.jpg](./silenthill.jpg)
 ![wallhaven-ml92v1.jpg](./wallhaven-ml92v1.jpg)
-![zaahen.jpg](./zaahen.jpg)
 ![animeswords.jpg](./animeswords.jpg)
 ![wallhaven-6djxy7.png](./wallhaven-6djxy7.png)
 ![wallhaven-e8xvgr.jpg](./wallhaven-e8xvgr.jpg)
@@ -69,7 +68,6 @@ Previews are dynamically generated below:
 ![courage.jpg](./courage.jpg)
 ![hyprdragon.jpg](./hyprdragon.jpg)
 ![wallhaven-m37ed1.jpg](./wallhaven-m37ed1.jpg)
-![kairi.png](./kairi.png)
 ![anime-village.png](./anime-village.png)
 
 #### Vertical (Portrait Mode)
