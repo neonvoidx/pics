@@ -36,6 +36,7 @@ Previews are dynamically generated below:
 ![jynx.jpg](./jynx.jpg)
 ![cosmonaut-in-open-space-art-desktop-wallpaper.jpg](./cosmonaut-in-open-space-art-desktop-wallpaper.jpg)
 ![wallhaven-zyw7wy.png](./wallhaven-zyw7wy.png)
+![51930318399_2f5636bdb5_o.png](./51930318399_2f5636bdb5_o.png)
 ![wallhaven-lyq1j2.jpg](./wallhaven-lyq1j2.jpg)
 ![cyberskull.png](./cyberskull.png)
 ![wallhaven-2y7w7x.jpg](./wallhaven-2y7w7x.jpg)
