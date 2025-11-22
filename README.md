@@ -8,6 +8,7 @@ Previews are dynamically generated below:
 
 ![racoon.png](./racoon.png)
 ![evil-anime-girl.png](./evil-anime-girl.png)
+![dragon_girl_anime-wallpaper-3440x1440.jpg](./dragon_girl_anime-wallpaper-3440x1440.jpg)
 ![anime-girl-white-hair-4k-wallpaper-uhdpaper.com-148@5@h.jpg](./anime-girl-white-hair-4k-wallpaper-uhdpaper.com-148@5@h.jpg)
 ![wallhaven-gw7zo3.jpg](./wallhaven-gw7zo3.jpg)
 ![anime-girl-white-hair-4k-wallpaper-uhdpaper.com-327@5@i.jpg](./anime-girl-white-hair-4k-wallpaper-uhdpaper.com-327@5@i.jpg)
@@ -48,6 +49,7 @@ Previews are dynamically generated below:
 ![wallhaven-zyw7wy.png](./wallhaven-zyw7wy.png)
 ![51930318399_2f5636bdb5_o.png](./51930318399_2f5636bdb5_o.png)
 ![wallhaven-lyq1j2.jpg](./wallhaven-lyq1j2.jpg)
+![jujutsu-kaisen-urban-supernatural-warrior-bb-3440x1440.jpg](./jujutsu-kaisen-urban-supernatural-warrior-bb-3440x1440.jpg)
 ![cyberskull.png](./cyberskull.png)
 ![wallhaven-2y7w7x.jpg](./wallhaven-2y7w7x.jpg)
 ![wallhaven-5wr6o5.jpg](./wallhaven-5wr6o5.jpg)
@@ -56,6 +58,7 @@ Previews are dynamically generated below:
 ![wallhaven-w5edpq.jpg](./wallhaven-w5edpq.jpg)
 ![kanji.png](./kanji.png)
 ![sci-fi-girl-warrior-sword-4k-wallpaper-uhdpaper.com-316@5@d.jpg](./sci-fi-girl-warrior-sword-4k-wallpaper-uhdpaper.com-316@5@d.jpg)
+![ryomen-sukuna-king-of-curses-gq-3440x1440.jpg](./ryomen-sukuna-king-of-curses-gq-3440x1440.jpg)
 ![vk1et87trlif1.jpeg](./vk1et87trlif1.jpeg)
 ![wallhaven-zp85do.png](./wallhaven-zp85do.png)
 ![wallhaven-21e8xy.png](./wallhaven-21e8xy.png)
