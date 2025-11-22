@@ -1,7 +1,6 @@
 """Dynamic README generator for images in directory"""
 
 import os
-from string import Template
 
 
 def get_all_images(walk_path):
@@ -16,27 +15,73 @@ def get_all_images(walk_path):
                     or file.endswith(".jpg")
                     or file.endswith(".jpeg")
                     or file.endswith(".gif")
+                    or file.endswith(".webp")
                 ):
                     images.append(file)
-    return images
+    return sorted(images)
+
+
+def get_aspect_ratio_folders():
+    """Get all aspect ratio folders (excluding .git, .github, vertical)"""
+    folders = []
+    for item in os.listdir("."):
+        if os.path.isdir(item) and item not in [".git", ".github", "vertical"]:
+            folders.append(item)
+    return sorted(folders)
+
+
+def folder_name_to_title(folder_name):
+    """Convert folder name to readable title"""
+    ratio_names = {
+        "16-9": "16:9 (Standard Widescreen)",
+        "other": "Other Aspect Ratios",
+    }
+    return ratio_names.get(folder_name, folder_name.replace("-", ":"))
 
 
 def main():
     """Main function"""
-    images = get_all_images(".")
+    # Generate README content
+    output = []
+    output.append("### Wallpapers\n")
+    output.append("This my collection of wallpapers that I find visually pleasing. ")
+    output.append("I do not take credit for any of these, most of then are found on ")
+    output.append("/r/unixporn or wallhaven.cc.\n")
+    output.append("\nPreviews are dynamically generated below:\n")
+    
+    # 21:9 Ultrawide images (root folder)
+    ultrawide_images = get_all_images(".")
+    if ultrawide_images:
+        output.append("\n#### 21:9 Ultrawide\n")
+        for image in ultrawide_images:
+            output.append(f"\n![{image}](./{image})")
+        output.append("\n")
+    
+    # Vertical images
     vert_images = get_all_images("vertical")
-    with open("READMETEMPLATE.md", "r", encoding="utf-8") as template:
-        data = template.read()
-        template = Template(data)
-        output = template.substitute(
-            images="\n".join([f"![{image}](./{image})" for image in images]),
-            vert_images="\n".join(
-                [f"![{image}](./vertical/{image})" for image in vert_images]
-            ),
-        )
-        print(output)
-        with open("README.md", "w", encoding="utf-8") as readme:
-            readme.write(output)
+    if vert_images:
+        output.append("\n#### Vertical (Portrait Mode)\n")
+        for image in vert_images:
+            output.append(f"\n![{image}](./vertical/{image})")
+        output.append("\n")
+    
+    # Other aspect ratio folders
+    aspect_folders = get_aspect_ratio_folders()
+    for folder in aspect_folders:
+        folder_images = get_all_images(folder)
+        if folder_images:
+            title = folder_name_to_title(folder)
+            output.append(f"\n#### {title}\n")
+            for image in folder_images:
+                output.append(f"\n![{image}](./{folder}/{image})")
+            output.append("\n")
+    
+    # Write to README
+    readme_content = "".join(output)
+    print(readme_content)
+    
+    with open("README.md", "w", encoding="utf-8") as readme:
+        readme.write(readme_content)
 
 
 if __name__ == "__main__":
