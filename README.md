@@ -44,10 +44,6 @@ Previews are dynamically generated below:
 ![yhi2zdknv6741.png](./vertical/yhi2zdknv6741.png)
 ![yuti.jpg](./vertical/yuti.jpg)
 
-#### 128:61
-
-![anime-orange-eye.png](./128-61/anime-orange-eye.png)
-
 #### 16:9 (Standard Widescreen)
 
 ![anime-astronaut.jpg](./16-9/anime-astronaut.jpg)
@@ -97,53 +93,21 @@ Previews are dynamically generated below:
 ![wallhaven-zpxjjo.jpg](./16-9/wallhaven-zpxjjo.jpg)
 ![zombie-anime-girl-graveyard-4k-wallpaper-uhdpaper.com-338@5@j.jpg](./16-9/zombie-anime-girl-graveyard-4k-wallpaper-uhdpaper.com-338@5@j.jpg)
 
-#### 2:1
+#### Other Aspect Ratios
 
-![facinggod.jpg](./2-1/facinggod.jpg)
-![wallhaven-jxg735.jpg](./2-1/wallhaven-jxg735.jpg)
-
-#### 2048:1253
-
-![wallhaven-ml92v1.jpg](./2048-1253/wallhaven-ml92v1.jpg)
-
-#### 2800:1307
-
-![wallhaven-m37ed1.jpg](./2800-1307/wallhaven-m37ed1.jpg)
-
-#### 3:2
-
-![bikeranime.jpg](./3-2/bikeranime.jpg)
-
-#### 4:3
-
-![wallhaven-2y7w7x.jpg](./4-3/wallhaven-2y7w7x.jpg)
-
-#### 4000:1919
-
-![wallhaven-gw7zo3.jpg](./4000-1919/wallhaven-gw7zo3.jpg)
-
-#### 4217:1700
-
-![wallhaven-1qpeo1.jpg](./4217-1700/wallhaven-1qpeo1.jpg)
-
-#### 48:25
-
-![wallhaven-8o19qk.jpg](./48-25/wallhaven-8o19qk.jpg)
-![wallhaven-x82drz.jpg](./48-25/wallhaven-x82drz.jpg)
-
-#### 58:37
-
-![wallhaven-zp85do.png](./58-37/wallhaven-zp85do.png)
-
-#### 6084:5093
-
-![wallhaven-3q9rgd.jpg](./6084-5093/wallhaven-3q9rgd.jpg)
-
-#### 8:5 (16:10)
-
-![floating.jpeg](./8-5/floating.jpeg)
-![mima.png](./8-5/mima.png)
-
-#### 877:620
-
-![wallhaven-zyw7wy.png](./877-620/wallhaven-zyw7wy.png)
+![anime-orange-eye.png](./other/anime-orange-eye.png)
+![bikeranime.jpg](./other/bikeranime.jpg)
+![facinggod.jpg](./other/facinggod.jpg)
+![floating.jpeg](./other/floating.jpeg)
+![mima.png](./other/mima.png)
+![wallhaven-1qpeo1.jpg](./other/wallhaven-1qpeo1.jpg)
+![wallhaven-2y7w7x.jpg](./other/wallhaven-2y7w7x.jpg)
+![wallhaven-3q9rgd.jpg](./other/wallhaven-3q9rgd.jpg)
+![wallhaven-8o19qk.jpg](./other/wallhaven-8o19qk.jpg)
+![wallhaven-gw7zo3.jpg](./other/wallhaven-gw7zo3.jpg)
+![wallhaven-jxg735.jpg](./other/wallhaven-jxg735.jpg)
+![wallhaven-m37ed1.jpg](./other/wallhaven-m37ed1.jpg)
+![wallhaven-ml92v1.jpg](./other/wallhaven-ml92v1.jpg)
+![wallhaven-x82drz.jpg](./other/wallhaven-x82drz.jpg)
+![wallhaven-zp85do.png](./other/wallhaven-zp85do.png)
+![wallhaven-zyw7wy.png](./other/wallhaven-zyw7wy.png)

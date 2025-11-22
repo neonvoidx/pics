@@ -34,15 +34,7 @@ def folder_name_to_title(folder_name):
     """Convert folder name to readable title"""
     ratio_names = {
         "16-9": "16:9 (Standard Widescreen)",
-        "21-9": "21:9 (Ultrawide)",
-        "2-1": "2:1",
-        "3-2": "3:2",
-        "4-3": "4:3",
-        "8-5": "8:5 (16:10)",
-        "48-25": "48:25",
-        "43-18": "43:18",
-        "64-27": "64:27",
-        "12-5": "12:5",
+        "other": "Other Aspect Ratios",
     }
     return ratio_names.get(folder_name, folder_name.replace("-", ":"))
 
