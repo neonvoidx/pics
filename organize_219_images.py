@@ -10,13 +10,21 @@ import shutil
 from PIL import Image
 
 
+# Constants
+MIN_WIDTH = 3440
+MIN_HEIGHT = 1440
+# 21:9 ratio is exactly 2.333, but common resolutions range from 2.35-2.40
+# Allow range to capture all typical 21:9 ultrawide formats
+ASPECT_RATIO_MIN = 2.33
+ASPECT_RATIO_MAX = 2.41
+
+
 def is_219_aspect_ratio(width, height):
     """Check if image has 21:9 aspect ratio (allowing small tolerance)"""
     if height == 0:
         return False
     ratio = width / height
-    # 21:9 is approximately 2.33, allow small tolerance
-    return 2.3 <= ratio <= 2.4
+    return ASPECT_RATIO_MIN <= ratio <= ASPECT_RATIO_MAX
 
 
 def get_image_dimensions(image_path):
@@ -24,7 +32,7 @@ def get_image_dimensions(image_path):
     try:
         with Image.open(image_path) as img:
             return img.size  # Returns (width, height)
-    except Exception as e:
+    except (IOError, OSError) as e:
         print(f"Error reading {image_path}: {e}")
         return None, None
 
@@ -53,11 +61,20 @@ def process_219_subfolder(subfolder_names=None):
         # Get all image files in the subfolder
         image_files = []
         for file in os.listdir(subfolder_path):
-            if file.endswith(('.png', '.jpg', '.jpeg', '.gif', '.webp')):
+            if file.lower().endswith(('.png', '.jpg', '.jpeg', '.gif', '.webp')):
                 image_files.append(file)
         
         if not image_files:
             print(f"No images found in {subfolder_name}")
+            # Check if folder is empty and can be deleted
+            remaining_files = os.listdir(subfolder_path)
+            if not remaining_files:
+                print(f"{subfolder_name} is empty, deleting folder...")
+                try:
+                    os.rmdir(subfolder_path)
+                    print(f"Deleted empty folder: {subfolder_name}")
+                except OSError as e:
+                    print(f"Warning: Could not delete {subfolder_name}: {e}")
             continue
         
         print(f"Found {len(image_files)} image(s) in {subfolder_name}")
@@ -82,13 +99,13 @@ def process_219_subfolder(subfolder_names=None):
                 continue
             
             # Check if dimensions meet threshold
-            if width >= 3440 and height >= 1440:
+            if width >= MIN_WIDTH and height >= MIN_HEIGHT:
                 # Move to root folder
                 destination = os.path.join(".", image_file)
                 
-                # Check if file already exists in root
+                # Check if file already exists in root (prevents overwriting)
                 if os.path.exists(destination):
-                    print(f"Skipping {image_file}: File already exists in root folder")
+                    print(f"Skipping {image_file}: File with same name already exists in root folder")
                     skipped_count += 1
                     continue
                 
@@ -96,7 +113,7 @@ def process_219_subfolder(subfolder_names=None):
                 shutil.move(image_path, destination)
                 moved_count += 1
             else:
-                print(f"Skipping {image_file}: Size {width}x{height} is less than 3440x1440")
+                print(f"Skipping {image_file}: Size {width}x{height} is less than {MIN_WIDTH}x{MIN_HEIGHT}")
                 skipped_count += 1
         
         print(f"\nSummary for {subfolder_name}:")
@@ -107,8 +124,11 @@ def process_219_subfolder(subfolder_names=None):
         remaining_files = os.listdir(subfolder_path)
         if not remaining_files:
             print(f"\n{subfolder_name} is now empty, deleting folder...")
-            os.rmdir(subfolder_path)
-            print(f"Deleted empty folder: {subfolder_name}")
+            try:
+                os.rmdir(subfolder_path)
+                print(f"Deleted empty folder: {subfolder_name}")
+            except OSError as e:
+                print(f"Warning: Could not delete {subfolder_name}: {e}")
         else:
             print(f"\n{subfolder_name} still contains {len(remaining_files)} file(s), keeping folder")
 
@@ -118,7 +138,7 @@ def main():
     print("=" * 60)
     print("21:9 Image Organizer")
     print("=" * 60)
-    print("This script moves 21:9 images >= 3440x1440")
+    print(f"This script moves 21:9 images >= {MIN_WIDTH}x{MIN_HEIGHT}")
     print("from subfolder(s) to root folder.")
     print("=" * 60)
     
