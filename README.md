@@ -66,6 +66,8 @@ Previews are dynamically generated below:
 ![silenthill.png](./ultrawide/silenthill.png)
 ![tv-girl.png](./ultrawide/tv-girl.png)
 ![vice.jpg](./ultrawide/vice.jpg)
+![wallhaven-gpx537.jpg](./ultrawide/wallhaven-gpx537.jpg)
+![wallhaven-p9pv39.png](./ultrawide/wallhaven-p9pv39.png)
 ![watercolor.png](./ultrawide/watercolor.png)
 ![wired-skull.png](./ultrawide/wired-skull.png)
 ![zombie-anime-zombie-girl.png](./ultrawide/zombie-anime-zombie-girl.png)
