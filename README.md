@@ -19,7 +19,6 @@ Previews are dynamically generated below:
 ![cyberpunk-edgerunners.jpg](./ultrawide/cyberpunk-edgerunners.jpg)
 ![cyberpunk-gun-guy.png](./ultrawide/cyberpunk-gun-guy.png)
 ![cyberpunk-ninja.png](./ultrawide/cyberpunk-ninja.png)
-![cyberpunk-smoking-girl.png](./ultrawide/cyberpunk-smoking-girl.png)
 ![cyberskull.png](./ultrawide/cyberskull.png)
 ![demon.png](./ultrawide/demon.png)
 ![devil-mask-girl.png](./ultrawide/devil-mask-girl.png)
