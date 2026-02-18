@@ -52,6 +52,7 @@ Previews are dynamically generated below:
 ![look-back.png](./ultrawide/look-back.png)
 ![lucy-retro.png](./ultrawide/lucy-retro.png)
 ![lucy.png](./ultrawide/lucy.png)
+![lucypunk.jpg](./ultrawide/lucypunk.jpg)
 ![mickey.png](./ultrawide/mickey.png)
 ![moan.png](./ultrawide/moan.png)
 ![nerd-paradise.png](./ultrawide/nerd-paradise.png)
