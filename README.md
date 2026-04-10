@@ -33,6 +33,7 @@ Previews are dynamically generated below:
 ![fractal-demon-veins.jpg](./ultrawide/fractal-demon-veins.jpg)
 ![goretex.jpg](./ultrawide/goretex.jpg)
 ![gorillaz.png](./ultrawide/gorillaz.png)
+![gunsout.jpg](./ultrawide/gunsout.jpg)
 ![hazard-bot.png](./ultrawide/hazard-bot.png)
 ![help-spaceman.png](./ultrawide/help-spaceman.png)
 ![hyprbeast.jpg](./ultrawide/hyprbeast.jpg)
@@ -88,16 +89,16 @@ Previews are dynamically generated below:
 #### Vertical (Portrait Mode)
 
 ![abstractacid.png](./vertical/abstractacid.png)
-![darklust.jpg](./vertical/darklust.jpg)
 ![dead-transit.jpg](./vertical/dead-transit.jpg)
-![hanyah.jpg](./vertical/hanyah.jpg)
+![gamers-watching.jpg](./vertical/gamers-watching.jpg)
 ![riding-home.png](./vertical/riding-home.png)
 ![stackedcity.jpg](./vertical/stackedcity.jpg)
-![subway.jpg](./vertical/subway.jpg)
 ![tom-jerry.png](./vertical/tom-jerry.png)
-![vr.jpeg](./vertical/vr.jpeg)
+![wallhaven-3qkj1v.jpg](./vertical/wallhaven-3qkj1v.jpg)
+![wallhaven-po3z8m.jpg](./vertical/wallhaven-po3z8m.jpg)
+![wallhaven-w569z7.jpg](./vertical/wallhaven-w569z7.jpg)
+![wallhaven-yq8w9d.png](./vertical/wallhaven-yq8w9d.png)
 ![watching-flight.png](./vertical/watching-flight.png)
-![yuti.jpg](./vertical/yuti.jpg)
 
 #### Other Aspect Ratios
 
