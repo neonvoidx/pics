@@ -5,6 +5,7 @@ Previews are dynamically generated below:
 
 #### Ultrawide (21:9 or close enough)
 
+![1198779-3840x2129-desktop-hd-studio-ghibli-background-image_1.jpg](./ultrawide/1198779-3840x2129-desktop-hd-studio-ghibli-background-image_1.jpg)
 ![a-new-horizon.jpg](./ultrawide/a-new-horizon.jpg)
 ![aliensfound.png](./ultrawide/aliensfound.png)
 ![anime-girlmiddle-finger.png](./ultrawide/anime-girlmiddle-finger.png)
