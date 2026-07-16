@@ -29,6 +29,7 @@ Previews are dynamically generated below:
 ![cyberpunk-gun-guy.png](./ultrawide/cyberpunk-gun-guy.png)
 ![cyberskull.png](./ultrawide/cyberskull.png)
 ![cygirl.png](./ultrawide/cygirl.png)
+![darktimes.jpg](./ultrawide/darktimes.jpg)
 ![demon.png](./ultrawide/demon.png)
 ![devil-mask-girl.png](./ultrawide/devil-mask-girl.png)
 ![distantplanet.jpg](./ultrawide/distantplanet.jpg)
@@ -105,6 +106,7 @@ Previews are dynamically generated below:
 ![whale-ocean.png](./ultrawide/whale-ocean.png)
 ![wired-skull.png](./ultrawide/wired-skull.png)
 ![worldeater.jpg](./ultrawide/worldeater.jpg)
+![writingonthewall.jpg](./ultrawide/writingonthewall.jpg)
 ![wtfskelly.png](./ultrawide/wtfskelly.png)
 
 #### Vertical (Portrait Mode)
