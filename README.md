@@ -29,6 +29,7 @@ Previews are dynamically generated below:
 ![cyberpunk-gun-guy.png](./ultrawide/cyberpunk-gun-guy.png)
 ![cyberskull.png](./ultrawide/cyberskull.png)
 ![cygirl.png](./ultrawide/cygirl.png)
+![dark-fantasy-fantasy-art-digital-art-gothic-surreal-hd-wallpaper-e8168d3880f07ca8e0fcd16e6882d42a.jpg](./ultrawide/dark-fantasy-fantasy-art-digital-art-gothic-surreal-hd-wallpaper-e8168d3880f07ca8e0fcd16e6882d42a.jpg)
 ![darktimes.jpg](./ultrawide/darktimes.jpg)
 ![demon.png](./ultrawide/demon.png)
 ![devil-mask-girl.png](./ultrawide/devil-mask-girl.png)
