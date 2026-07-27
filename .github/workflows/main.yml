@@ -10,10 +10,16 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: checkout repo content
-        uses: actions/checkout@v2 # checkout the repository content to github runner
+        uses: actions/checkout@v2
 
       - name: Setup Python
         uses: actions/setup-python@v5.1.0
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Deduplicate images
+        run: python dedup.py ultrawide vertical
 
       - name: Generate Readme
         run: python update_readme.py

@@ -34,7 +34,6 @@ def main():
     folders_and_titles = [
         ("ultrawide", "Ultrawide (21:9 or close enough)"),
         ("vertical", "Vertical (Portrait Mode)"),
-        ("other", "Other Aspect Ratios"),
     ]
     for folder, title in folders_and_titles:
         folder_images = get_all_images(folder)
