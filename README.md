@@ -5,6 +5,9 @@ Previews are dynamically generated below:
 
 #### Ultrawide (21:9 or close enough)
 
+![Aleph2.jpg](./ultrawide/Aleph2.jpg)
+![Aleph3.jpg](./ultrawide/Aleph3.jpg)
+![Aleph4.jpg](./ultrawide/Aleph4.jpg)
 ![Edward-Moran-The-Sea-(1870).jpg](./ultrawide/Edward-Moran-The-Sea-(1870).jpg)
 ![RDT_20260731_1058327112968145900014942.jpg](./ultrawide/RDT_20260731_1058327112968145900014942.jpg)
 ![RDT_20260815_1322448232735619919645144.jpg](./ultrawide/RDT_20260815_1322448232735619919645144.jpg)
