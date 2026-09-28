@@ -115,6 +115,7 @@ Previews are dynamically generated below:
 ![wallhaven-d865q3.jpg](./ultrawide/wallhaven-d865q3.jpg)
 ![wallhaven-d86ekm.png](./ultrawide/wallhaven-d86ekm.png)
 ![wallhaven-e83eql.jpg](./ultrawide/wallhaven-e83eql.jpg)
+![wallhaven-e8v86k.jpg](./ultrawide/wallhaven-e8v86k.jpg)
 ![wallhaven-gw2587.jpg](./ultrawide/wallhaven-gw2587.jpg)
 ![wallhaven-gw2gyq.png](./ultrawide/wallhaven-gw2gyq.png)
 ![wallhaven-gw55p3.jpg](./ultrawide/wallhaven-gw55p3.jpg)
